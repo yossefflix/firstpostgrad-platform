@@ -1,0 +1,152 @@
+// Data for FirstPostgrad prototype
+const SPECIALTIES = [
+  'General medicine', 'General surgery', 'Emergency medicine', 'Paediatrics',
+  'Psychiatry', 'Obstetrics & gynaecology', 'Anaesthetics', 'Radiology',
+  'GP / primary care', 'Trauma & orthopaedics', 'ENT', 'Ophthalmology',
+];
+
+const REGIONS = [
+  'London', 'South East', 'South West', 'East of England',
+  'Midlands', 'North West', 'North East & Yorkshire',
+  'Wales', 'Scotland', 'Northern Ireland',
+];
+
+const GRADES = ['SHO (CT1/ST1 equivalent)', 'FY2 equivalent', 'Trust grade SHO', 'Clinical fellow'];
+
+const JOBS = [
+  {
+    id: 'j1',
+    trust: 'Barts Health NHS Trust',
+    role: 'Trust grade SHO — General medicine',
+    location: 'Whitechapel, London',
+    salary: '£43,923 — £55,329',
+    deadline: '6 days',
+    deadlineColor: 'amber',
+    posted: '2h ago',
+    grade: 'SHO',
+    specialty: 'General medicine',
+    fit: 94,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['IMG friendly', 'Tier 2', 'On-call rota'],
+    cvTip: 'Mention your PLAB 2 station on acute abdomen — their panel weights acute take presentations heavily.',
+    why: 'Barts has accepted 4 IMGs from our community in the last 90 days. Panel interview, usually within 2 weeks.',
+    char: 'aza',
+  },
+  {
+    id: 'j2',
+    trust: 'Royal Cornwall Hospitals',
+    role: 'SHO — Paediatrics',
+    location: 'Truro, Cornwall',
+    salary: '£43,923 — £55,329',
+    deadline: '3 days',
+    deadlineColor: 'red',
+    posted: '5h ago',
+    grade: 'SHO',
+    specialty: 'Paediatrics',
+    fit: 87,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['IMG friendly', 'Tier 2', 'Relocation support'],
+    cvTip: 'Lead with your neonatal rotation — the JD specifically mentions SCBU cross-cover.',
+    why: 'Smaller trust, faster decisions. 11 days from application to offer on average.',
+    char: 'mai',
+  },
+  {
+    id: 'j3',
+    trust: 'Manchester University NHS FT',
+    role: 'Clinical fellow — Emergency medicine',
+    location: 'Manchester',
+    salary: '£45,200 — £57,800',
+    deadline: '14 days',
+    deadlineColor: 'green',
+    posted: '1d ago',
+    grade: 'Clinical fellow',
+    specialty: 'Emergency medicine',
+    fit: 79,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['Fellowship', 'Teaching', 'Tier 2'],
+    cvTip: 'The "teaching experience" line in your CV is thin — we can help you reframe your PLAB study group leadership.',
+    why: 'Jennifer reviewed the JD — it genuinely welcomes IMGs. Not a box-tick.',
+    char: 'jennifer',
+  },
+  {
+    id: 'j4',
+    trust: 'Leeds Teaching Hospitals',
+    role: 'SHO — Psychiatry',
+    location: 'Leeds',
+    salary: '£43,923 — £55,329',
+    deadline: '9 days',
+    deadlineColor: 'green',
+    posted: '1d ago',
+    grade: 'SHO',
+    specialty: 'Psychiatry',
+    fit: 82,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['IMG friendly', 'Tier 2', 'Structured induction'],
+    cvTip: 'You have 3 months of psychiatry from home — bring the section 2/3 equivalents up front.',
+    why: 'Runs a 2-week shadowing induction specifically for IMGs new to NHS psychiatry.',
+    char: 'aza',
+  },
+  {
+    id: 'j5',
+    trust: 'Portsmouth Hospitals University',
+    role: 'Trust grade — Obstetrics & gynaecology',
+    location: 'Portsmouth',
+    salary: '£43,923 — £55,329',
+    deadline: '11 days',
+    deadlineColor: 'green',
+    posted: '2d ago',
+    grade: 'Trust grade SHO',
+    specialty: 'Obstetrics & gynaecology',
+    fit: 73,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['Tier 2', 'Labour ward'],
+    cvTip: 'Your O&G section needs specific numbers — deliveries attended, caesarean assists. Ask us for the template.',
+    why: 'Rolling recruitment — they interview every fortnight until filled.',
+    char: 'mai',
+  },
+  {
+    id: 'j6',
+    trust: 'Sheffield Teaching Hospitals',
+    role: 'SHO — Acute medicine',
+    location: 'Sheffield',
+    salary: '£43,923 — £55,329',
+    deadline: '18 days',
+    deadlineColor: 'green',
+    posted: '3d ago',
+    grade: 'SHO',
+    specialty: 'General medicine',
+    fit: 88,
+    visa: 'Tier 2 sponsorship confirmed',
+    tags: ['IMG friendly', 'Tier 2', 'Mentor scheme'],
+    cvTip: 'Bring your acute medicine log numbers forward. Sheffield values specificity.',
+    why: 'Paired mentor scheme — you get a senior reg who\'s been an IMG themselves.',
+    char: 'jennifer',
+  },
+];
+
+const TESTIMONIALS = [
+  {
+    name: 'Dr Ayesha R.',
+    role: 'Now SHO, Paediatrics — Royal Cornwall',
+    quote: 'Four months of refreshing NHS Jobs at 1am, nothing. Two weeks on FirstPostgrad and I had three interviews. Khaled replied to my panicked email at 11pm on a Tuesday.',
+  },
+  {
+    name: 'Dr Omar K.',
+    role: 'Now SHO, Psychiatry — Leeds',
+    quote: 'I was applying to 20 jobs a week with the same CV. The tailoring guide got specific about what each trust actually reads. I got the second trust I applied to.',
+  },
+  {
+    name: 'Dr Priya S.',
+    role: 'Now Clinical fellow, EM — Manchester',
+    quote: 'Not a recruiter. Not a course. Someone actually going through it, writing honestly about what works. That was the difference.',
+  },
+];
+
+const PROBLEM_BULLETS = [
+  { k: '47%', v: 'of IMG doctors spend 6+ months unemployed after GMC registration' },
+  { k: '120+', v: 'average jobs applied to before a first interview' },
+  { k: '£0', v: 'income while the wait drags on. Visa clock still ticking.' },
+];
+
+// expose
+Object.assign(window, { SPECIALTIES, REGIONS, GRADES, JOBS, TESTIMONIALS, PROBLEM_BULLETS });

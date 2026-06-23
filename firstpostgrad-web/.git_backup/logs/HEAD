@@ -1,0 +1,40 @@
+0000000000000000000000000000000000000000 a4f2e6d4a963e448d12a6744c7553c27f183190e Khaled <firstpostgradteam@gmail.com> 1777239667 +0300	commit (initial): FirstPostgrad web app initial commit
+a4f2e6d4a963e448d12a6744c7553c27f183190e 0000000000000000000000000000000000000000 Khaled <firstpostgradteam@gmail.com> 1777239795 +0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 a4f2e6d4a963e448d12a6744c7553c27f183190e Khaled <firstpostgradteam@gmail.com> 1777239795 +0300	Branch: renamed refs/heads/master to refs/heads/main
+a4f2e6d4a963e448d12a6744c7553c27f183190e 35d6bfe283bf7d87411dd5a8798bc036f24aab48 Khaled <firstpostgradteam@gmail.com> 1777295823 +0300	commit: Dark mode, themed pages, Soly feedback, CV upload
+35d6bfe283bf7d87411dd5a8798bc036f24aab48 8c510430b8152c02c6b14a0acf73a3aec444b31e Khaled <firstpostgradteam@gmail.com> 1777296302 +0300	commit: Fix layout TypeScript error
+8c510430b8152c02c6b14a0acf73a3aec444b31e c4ecb53aa33e045ca129cf9a429ff1eaf9e0f1a5 Khaled <firstpostgradteam@gmail.com> 1777296456 +0300	commit: Fix layout title encoding
+c4ecb53aa33e045ca129cf9a429ff1eaf9e0f1a5 bc56f8bbe6e8cb7249f1748b34f141254eb4ef2b Khaled <firstpostgradteam@gmail.com> 1777297042 +0300	commit: Update favicon to teal F mark
+bc56f8bbe6e8cb7249f1748b34f141254eb4ef2b 4460d9cd37f585a26cdbcd50826b9a3181eb3ed4 Khaled <firstpostgradteam@gmail.com> 1777297261 +0300	commit: Fix favicon
+4460d9cd37f585a26cdbcd50826b9a3181eb3ed4 623db6158ceb1a237498c0061b11e969894784b8 Khaled <firstpostgradteam@gmail.com> 1777297364 +0300	commit: Fix favicon using inline SVG data URI
+623db6158ceb1a237498c0061b11e969894784b8 dfb28ed4230bb29230c716b2d63af53378c40fc7 Khaled <firstpostgradteam@gmail.com> 1777297911 +0300	commit: Add job detail page, update email links
+dfb28ed4230bb29230c716b2d63af53378c40fc7 9b8a700d90ce9fe6a080e3d1c2d4eba8505b5ded Khaled <firstpostgradteam@gmail.com> 1777298251 +0300	commit: Fix job detail page params
+9b8a700d90ce9fe6a080e3d1c2d4eba8505b5ded 7e7532e5b7952d1255052a77c8cbbb82f87c26ed Khaled <firstpostgradteam@gmail.com> 1777298657 +0300	commit: Mobile responsive layout across all pages
+7e7532e5b7952d1255052a77c8cbbb82f87c26ed 9d40fb535537d4faa031a15d95af460a301e18bb Khaled <firstpostgradteam@gmail.com> 1777299468 +0300	commit: Fix sign out redirect to login
+9d40fb535537d4faa031a15d95af460a301e18bb 1e8cf06c8d338d202c348d2d13e440cc83556668 Khaled <firstpostgradteam@gmail.com> 1777300090 +0300	commit: Fix feedback nav - always dark, add theme toggle
+1e8cf06c8d338d202c348d2d13e440cc83556668 33e31fef99216136177e79c3addb93bc643df291 Khaled <firstpostgradteam@gmail.com> 1777300802 +0300	commit: Fix job detail and feedback nav
+33e31fef99216136177e79c3addb93bc643df291 273fdfede3d48f4c5855531dd97c219bcf40a703 Khaled <firstpostgradteam@gmail.com> 1777301275 +0300	commit: Fix toggleTheme in feedback
+273fdfede3d48f4c5855531dd97c219bcf40a703 99c2924b2aaa04e0aef211855f7ea8646715b142 Khaled <firstpostgradteam@gmail.com> 1777301666 +0300	commit: Add View details button to job cards
+99c2924b2aaa04e0aef211855f7ea8646715b142 ba72d3508c650f5e1be20b55ee55cc72f02e3f79 Khaled <firstpostgradteam@gmail.com> 1777302021 +0300	commit: Clean job description display
+ba72d3508c650f5e1be20b55ee55cc72f02e3f79 678c9a6c05aec7b75b8e49da97bf833bfe49298c Khaled <firstpostgradteam@gmail.com> 1777302135 +0300	commit: Fix job detail build error and clean description
+678c9a6c05aec7b75b8e49da97bf833bfe49298c 31735e1bf18981e18db7197b5f46928ef63b5cd6 Khaled <firstpostgradteam@gmail.com> 1777302539 +0300	commit: Clean description sections, fix loading wordmark
+31735e1bf18981e18db7197b5f46928ef63b5cd6 93f3116a45875b2155217a4c1bb2cb654258be6f Khaled <firstpostgradteam@gmail.com> 1777627657 +0300	commit: Fix Soly score consistency, add PDF and txt CV upload
+93f3116a45875b2155217a4c1bb2cb654258be6f e05df61b46e0de48198a0628ce16ddf4eb59d2b0 Khaled <firstpostgradteam@gmail.com> 1777628218 +0300	commit: Remove PDF upload, keep docx and txt
+e05df61b46e0de48198a0628ce16ddf4eb59d2b0 2d20edd7220fc44e07ddbfbbc77d99f7e3a9b9d7 Khaled <firstpostgradteam@gmail.com> 1777628941 +0300	commit: Fix Soly score to match feedback page calculation
+2d20edd7220fc44e07ddbfbbc77d99f7e3a9b9d7 689ca5d9c701e6646281651e24480848be462d1e Khaled <firstpostgradteam@gmail.com> 1777629273 +0300	commit: Fix CV upload formats and push Soly fix
+689ca5d9c701e6646281651e24480848be462d1e 4bc71997e15164eee5a332a79c2838d8aa582119 Khaled <firstpostgradteam@gmail.com> 1777630474 +0300	commit: Fix duplicate specialtyWords in Soly score
+4bc71997e15164eee5a332a79c2838d8aa582119 00515e6f7518a21e489e4fa4ea27e90cd5e5116a Khaled <firstpostgradteam@gmail.com> 1777632033 +0300	commit: Fix Soly score consistency between card and feedback page
+00515e6f7518a21e489e4fa4ea27e90cd5e5116a 772c7d2de48481555b99acccafa4a312c2998bec Khaled <firstpostgradteam@gmail.com> 1777632126 +0300	commit: Fix toggleTheme in feedback
+772c7d2de48481555b99acccafa4a312c2998bec a63b9e8b6b126ae7aaf64a8d9a1a9583484fcce1 Khaled <firstpostgradteam@gmail.com> 1777632437 +0300	commit: Fix Soly score consistency
+a63b9e8b6b126ae7aaf64a8d9a1a9583484fcce1 2c44d560516f2014b66ae95c7fe344c626a9b2c9 Khaled <firstpostgradteam@gmail.com> 1777632786 +0300	commit: Fix CV upload to docx only with helpful doc message
+2c44d560516f2014b66ae95c7fe344c626a9b2c9 12d4dbe02beab68174bbdbf52a6e6fe034f96a28 Khaled <firstpostgradteam@gmail.com> 1777633344 +0300	commit: Fix CV upload to docx only with correct error message
+12d4dbe02beab68174bbdbf52a6e6fe034f96a28 1d5966c3d1e6346d51435adea024c107f868bd9e Khaled <firstpostgradteam@gmail.com> 1777633657 +0300	commit: Fix CV error message to show in Your CV section
+1d5966c3d1e6346d51435adea024c107f868bd9e 4bc69095a4e573d3496d115fd664b2a0c33c1deb Khaled <firstpostgradteam@gmail.com> 1777637309 +0300	commit: Add specialty filter to dashboard
+4bc69095a4e573d3496d115fd664b2a0c33c1deb 9ec9231402809facd79e5e159d012c50ce922a2c Khaled <firstpostgradteam@gmail.com> 1777637662 +0300	commit: Increase job limit to 200 on dashboard
+9ec9231402809facd79e5e159d012c50ce922a2c 4b140a04b7a7e5e56fc6a6e26e0578c5d788d041 Khaled <firstpostgradteam@gmail.com> 1777638265 +0300	commit: Add specialty filter and increase job limit to 200
+4b140a04b7a7e5e56fc6a6e26e0578c5d788d041 ad3a4577ec3015d65e01c09fd040c94d3322f128 Khaled <firstpostgradteam@gmail.com> 1777638584 +0300	commit: Add toggle switch for specialty filter
+ad3a4577ec3015d65e01c09fd040c94d3322f128 5a59193e2592dc050eede13c837b140d8a6643b3 Khaled <firstpostgradteam@gmail.com> 1777638718 +0300	commit: Match specialty filter style to Cards/Digest toggle
+5a59193e2592dc050eede13c837b140d8a6643b3 417ed8266d4b8c71af708f5b50f2c1bfd0bb05e5 Khaled <firstpostgradteam@gmail.com> 1777638932 +0300	commit: Fix specialty filter to match Cards/Digest toggle style
+417ed8266d4b8c71af708f5b50f2c1bfd0bb05e5 ca4c79b235558d0499123953824ee2abbedef888 Khaled <firstpostgradteam@gmail.com> 1777639142 +0300	commit: Fix specialty filter toggle
+ca4c79b235558d0499123953824ee2abbedef888 3dbdeba5aa47c37d770de2acf5989a93cc0e3457 Khaled <firstpostgradteam@gmail.com> 1777639226 +0300	commit: Fix JSX syntax in specialty filter
+3dbdeba5aa47c37d770de2acf5989a93cc0e3457 f9fb8dae39a5b36c943a09bcfede08d5675a29e3 Khaled <firstpostgradteam@gmail.com> 1777667298 +0300	commit: Increase job limit to 200
