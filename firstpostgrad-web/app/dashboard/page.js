@@ -226,15 +226,21 @@ export default function Dashboard() {
 
   useEffect(() => {
     const loadData = async () => {
-      const supabase = createClient()
-      const { data: { user } } = await supabase.auth.getUser()
-      if (!user) { window.location.href = '/login'; return }
-      setUser(user)
-      const { data: profile } = await supabase.from('users').select('*').eq('id', user.id).single()
-      setProfile(profile)
-      const { data: jobs } = await supabase.from('jobs').select('*').order('scraped_at', { ascending: false }).limit(200)
-      setJobs(jobs || [])
-      setLoading(false)
+      try {
+        const supabase = createClient()
+        const { data: { user }, error: authError } = await supabase.auth.getUser()
+        if (authError || !user) { window.location.href = '/login'; return }
+        setUser(user)
+        const { data: profile } = await supabase.from('users').select('*').eq('id', user.id).single()
+        setProfile(profile)
+        const { data: jobs } = await supabase.from('jobs').select('*').order('scraped_at', { ascending: false }).limit(200)
+        setJobs(jobs || [])
+      } catch (err) {
+        console.error("Failed to load data:", err)
+        window.location.href = '/login'
+      } finally {
+        setLoading(false)
+      }
     }
     loadData()
   }, [])
